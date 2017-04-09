@@ -78,6 +78,7 @@ Các yêu cầu có thể được xử lý trên database.
 | 5 Y_lat Y_long Delta_lat Delta_long | xác định số lượng điểm lưu trữ ở gần vị trí `Y`|
 | 6XXYXXXXX Y_lat Y_long Delta_lat Delta_long | xác định xem phương tiện vận tải mang biển số `XXYXXXXX` có hành trình đi qua vị trí `Y` hay không|
 | 7XXYXXXXX Y_lat Y_long Delta_lat Delta_long | xác định số lượng điểm lưu trữ trong hành trình phương tiện vận tải mang biển số `XXYXXXXX` có ở gần vị trí `Y`|
+
 **Lưu ý: nếu có nhiều kết quả có thể trả về thì chọn kết quả đầu tiên theo thứ tự lưu 
 trong dữ liệu đầu vào.**
 
