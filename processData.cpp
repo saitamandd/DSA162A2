@@ -23,7 +23,7 @@ void releaseBusGlobalData(void* pGData) {
     // TODO: do your cleanup, left this empty if you don't have any dynamically allocated data
 }
 
-bool processEvent(busEvent_t& event, L1List<BusInfo_t>& bList) {
+bool processEvent(busEvent_t& event, L1List<BusInfo_t>& bList, void* pGData) {
     // TODO: Your code goes here
     // return false for invlaid events
     return true;
