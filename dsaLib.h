@@ -8,8 +8,8 @@
  * =========================================================================================
  */
 
-#ifndef A02_DSALIB_H
-#define A02_DSALIB_H
+#ifndef A01_LISTLIB_H
+#define A01_LISTLIB_H
 
 #include <string>
 using namespace std;
@@ -200,4 +200,4 @@ protected:
     bool balanceRight(AVLNode<T>* &pR);
 };
 
-#endif //A02_DSALIB_H
+#endif //A01_LISTLIB_H
